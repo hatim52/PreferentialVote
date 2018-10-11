@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a152e30-bbe8-4877-b8b5-3af68c3273b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/CandidateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/CandidateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/TallyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/TallyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/VoteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/VoteTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="8a152e30-bbe8-4877-b8b5-3af68c3273b0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -252,7 +245,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -436,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539278181353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Checkin">
+      <created>1539280943759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539280943759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -480,14 +480,14 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5003903" side_tool="true" visible="true" weight="0.2414966" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003903" side_tool="true" visible="true" weight="0.2414966" />
       <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960968" visible="true" weight="0.2414966" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24043716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24043716" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -687,7 +687,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
