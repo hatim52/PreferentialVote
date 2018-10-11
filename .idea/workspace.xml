@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a152e30-bbe8-4877-b8b5-3af68c3273b0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/CandidateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/CandidateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/TallyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/TallyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/VoteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/aconex/tech/VoteTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,12 +67,10 @@
       <file leaf-file-name="CandidateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="289">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +113,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="262">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -158,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/aconex/tech/Tally.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/aconex/tech/resources/CandidateList.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/aconex/tech/TallyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/aconex/tech/VoteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -182,11 +185,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="PreferentialVote" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="PreferentialVote" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -226,30 +224,6 @@
               <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
               <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,23 +232,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PreferentialVote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PreferentialVote" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VoteTest">
+  <component name="RunManager" selected="JUnit.CandidateTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -400,6 +357,30 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PreferentialVote [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -426,12 +407,14 @@
       <item itemvalue="JUnit.TallyTest" />
       <item itemvalue="JUnit.VoteTest" />
       <item itemvalue="JUnit.CandidateTest" />
+      <item itemvalue="Maven.PreferentialVote [compile]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VoteTest" />
-        <item itemvalue="JUnit.TallyTest" />
         <item itemvalue="JUnit.CandidateTest" />
+        <item itemvalue="JUnit.TallyTest" />
+        <item itemvalue="Maven.PreferentialVote [compile]" />
+        <item itemvalue="JUnit.VoteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -457,9 +440,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TallyTest - 2018.10.11 at 21h 03m 57s.xml">
-      <configuration name="TallyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VoteTest - 2018.10.11 at 21h 05m 19s.xml">
       <configuration name="VoteTest" configurationId="JUnit" />
     </history-entry>
@@ -481,6 +461,15 @@
     <history-entry file="VoteTest - 2018.10.11 at 22h 44m 59s.xml">
       <configuration name="VoteTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CandidateTest - 2018.10.11 at 23h 22m 43s.xml">
+      <configuration name="CandidateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TallyTest - 2018.10.11 at 23h 24m 02s.xml">
+      <configuration name="TallyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CandidateTest - 2018.10.11 at 23h 24m 24s.xml">
+      <configuration name="CandidateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -491,10 +480,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5003903" side_tool="true" visible="true" weight="0.31632653" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5003903" side_tool="true" visible="true" weight="0.2414966" />
       <window_info anchor="right" id="Maven Projects" visible="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960968" visible="true" weight="0.31632653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960968" visible="true" weight="0.2414966" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -596,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/resources/CandidateList.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/TallyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -610,18 +592,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1222#1228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -636,10 +606,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/resources/CandidateList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/aconex/tech/CandidateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="262">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>

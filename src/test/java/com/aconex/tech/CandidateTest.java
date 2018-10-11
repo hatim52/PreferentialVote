@@ -32,6 +32,7 @@ public class CandidateTest {
 
     @Test
     public void getCandidateCountTest(){
+        Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         Assert.assertEquals (Candidate.getCandidateCount (),4);
     }
 }
