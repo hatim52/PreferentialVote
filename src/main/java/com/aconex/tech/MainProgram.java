@@ -30,7 +30,7 @@ public class MainProgram {
                 ArgumentValidator.checkArgumentNullOrEmpty (vote);
                 // Check if the vote is valid, and register it, if not, ignore it.
                 if ((Vote.validateVoteSequence (vote)) && (!(vote.equals ("TALLY")))) {
-                    listofVotes.add (Vote.casteVote (vote));
+                    listofVotes.add (new Vote (vote));
                     System.out.println ("vote registered as " + vote + "\n");
                 }
                 else {

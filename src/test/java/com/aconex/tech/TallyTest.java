@@ -14,14 +14,14 @@ public class TallyTest {
     public void getWinnerTest1(){
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         ArrayList<Vote> voteList = new ArrayList<Vote> ();
-        voteList.add (Vote.casteVote ("ABCD"));
-        voteList.add (Vote.casteVote ("BAD"));
-        voteList.add (Vote.casteVote ("CABD"));
-        voteList.add (Vote.casteVote ("CDAB"));
-        voteList.add (Vote.casteVote ("DA"));
-        voteList.add (Vote.casteVote ("DB"));
-        voteList.add (Vote.casteVote ("BAC"));
-        voteList.add (Vote.casteVote ("CBAD"));
+        voteList.add (new Vote  ("ABCD"));
+        voteList.add (new Vote  ("BAD"));
+        voteList.add (new Vote  ("CABD"));
+        voteList.add (new Vote  ("CDAB"));
+        voteList.add (new Vote  ("DA"));
+        voteList.add (new Vote  ("DB"));
+        voteList.add (new Vote  ("BAC"));
+        voteList.add (new Vote  ("CBAD"));
 
         String Win = new Tally(voteList).getWinner();
         ArgumentValidator.checkArgumentNullOrEmpty (Win);
@@ -33,12 +33,12 @@ public class TallyTest {
     public void getWinnerTest2(){
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         ArrayList<Vote> voteList = new ArrayList<Vote> ();
-        voteList.add (Vote.casteVote ("ACD"));
-        voteList.add (Vote.casteVote ("BD"));
-        voteList.add (Vote.casteVote ("ABC"));
-        voteList.add (Vote.casteVote ("CD"));
-        voteList.add (Vote.casteVote ("B"));
-        voteList.add (Vote.casteVote ("ACDB"));
+        voteList.add (new Vote ("ACD"));
+        voteList.add (new Vote  ("BD"));
+        voteList.add (new Vote  ("ABC"));
+        voteList.add (new Vote  ("CD"));
+        voteList.add (new Vote  ("B"));
+        voteList.add (new Vote ("ACDB"));
         String Win = new Tally(voteList).getWinner();
         ArgumentValidator.checkArgumentNullOrEmpty (Win);
         Assert.assertEquals (Win,"Winery tour");

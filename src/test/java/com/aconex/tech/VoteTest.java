@@ -12,7 +12,7 @@ public class VoteTest {
     public void casteVoteTest1() {
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         String sampleVote = "ABCD";
-        Vote v1=Vote.casteVote (sampleVote);
+        Vote v1=new Vote (sampleVote);
         if (v1 instanceof Vote) {
             System.out.println ("Test successful" );
         }
@@ -22,7 +22,7 @@ public class VoteTest {
     public void casteVoteTest2() {
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         String sampleVote = "ABCD";
-        Vote v2=Vote.casteVote (sampleVote);
+        Vote v2=new Vote  (sampleVote);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v2.voteMap.get ('A'))), 1);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v2.voteMap.get ('B'))), 2);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v2.voteMap.get ('C'))), 3);
@@ -33,7 +33,7 @@ public class VoteTest {
     public void casteVoteTest3() {
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         String sampleVote = "BA";
-        Vote v3=Vote.casteVote (sampleVote);
+        Vote v3=new Vote  (sampleVote);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v3.voteMap.get ('A'))), 2);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v3.voteMap.get ('B'))), 1);
         System.out.println (String.valueOf (v3.voteMap.get ('C')));
@@ -45,7 +45,7 @@ public class VoteTest {
     public void casteVoteTest4() {
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         String sampleVote = "";
-        Vote v4=Vote.casteVote (sampleVote);
+        Vote v4=new Vote  (sampleVote);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v4.voteMap.get ('A'))), 0);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v4.voteMap.get ('B'))), 0);
         Assert.assertEquals (Integer.parseInt (String.valueOf (v4.voteMap.get ('C'))), 0);
@@ -94,7 +94,7 @@ public class VoteTest {
     public void getCandidateFromPreferenceTest(){
         Candidate.readCandidateList (resourcesDirectory.getAbsolutePath ());
         String sampleVote = "ABCD";
-        Vote v1=Vote.casteVote (sampleVote);
+        Vote v1=new Vote  (sampleVote);
         System.out.println (v1.getCandidateFromPreference (1) );
         Assert.assertEquals (String.valueOf (v1.getCandidateFromPreference (1)).charAt (0),'A');
         Assert.assertEquals (String.valueOf (v1.getCandidateFromPreference (2)).charAt (0),'B');

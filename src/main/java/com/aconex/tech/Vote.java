@@ -8,18 +8,11 @@ import java.util.Map;
 public class Vote {
 
     public static int voteCount;
-    public static int candidateCount = Candidate.getCandidateCount ( );
+    private static int candidateCount = Candidate.getCandidateCount ( );
     private static HashMap<Character, Integer> voteMapTemplate = new HashMap<Character, Integer> (generateEmptyVoteMap ( ));
 
     public int voteNumber;
     public HashMap<Character, Integer> voteMap;
-
-    public static Vote casteVote(String votingSequence) {
-        Vote thisInstance = new Vote (votingSequence);
-        voteCount++;
-        //System.out.println ("Vote count is : " + voteCount);
-        return thisInstance;
-    }
 
     /**
      * Prints the vote result on the console
@@ -31,7 +24,7 @@ public class Vote {
     }
 
     /**
-     * Generates an empty hasmap as a tempalte for voteMap
+     * Generates an empty hashmap as a template for voteMap
      * @return
      */
     private static HashMap<Character,Integer> generateEmptyVoteMap() {
@@ -45,10 +38,10 @@ public class Vote {
     }
 
     /**
-     * Private Constructor of Vote class which created a new voteMap for each vote
+     *  Constructor of Vote class which creates a new voteMap for each vote
      * @param voteseq
      */
-    private Vote(String voteseq) {
+    public Vote(String voteseq) {
         voteMap = new HashMap<Character, Integer> (voteMapTemplate );
         //voteMap.putAll (voteMapTemplate);
         char alphabet = 'A';
@@ -57,8 +50,8 @@ public class Vote {
         for (int j = 0; j < eachVote.length; j++) {
             voteMap.put (eachVote[j], j + 1);
         }
-       // printVote ();
-        voteNumber = voteCount + 1;
+        voteCount++;
+        voteNumber = voteCount;
     }
 
     /**
