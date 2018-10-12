@@ -32,9 +32,6 @@ public class Candidate {
                 alphabet++;
             }
             s.close ( );
-            //  for(String el : candidates){
-            //    System.out.println(el);
-            //}
         } catch (FileNotFoundException e) {
             e.printStackTrace ( );
         }

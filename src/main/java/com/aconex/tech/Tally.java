@@ -32,9 +32,7 @@ public class Tally {
             for (Map.Entry<Character, Integer> sm : simpleMap.entrySet ( )) {
                 //Check if any candidate has enough votes to be declared as winner
                 if (sm.getValue ( ) >= winningNumber) {
-                    System.out.println (sm.getKey () );
                     winner = Candidate.getCandidateName (sm.getKey ( ));
-                    System.out.println (winner );
                     break;
                 }
             }

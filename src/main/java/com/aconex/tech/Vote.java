@@ -17,7 +17,7 @@ public class Vote {
     public static Vote casteVote(String votingSequence) {
         Vote thisInstance = new Vote (votingSequence);
         voteCount++;
-        System.out.println ("Vote count is : " + voteCount);
+        //System.out.println ("Vote count is : " + voteCount);
         return thisInstance;
     }
 
@@ -52,12 +52,12 @@ public class Vote {
         voteMap = new HashMap<Character, Integer> (voteMapTemplate );
         //voteMap.putAll (voteMapTemplate);
         char alphabet = 'A';
-        System.out.println ("Candidate count is "+Integer.toString (candidateCount) );
+       // System.out.println ("Candidate count is "+Integer.toString (candidateCount) );
         char[] eachVote = voteseq.toCharArray ( );
         for (int j = 0; j < eachVote.length; j++) {
             voteMap.put (eachVote[j], j + 1);
         }
-        printVote ();
+       // printVote ();
         voteNumber = voteCount + 1;
     }
 
