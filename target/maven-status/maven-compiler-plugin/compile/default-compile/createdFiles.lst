@@ -1,0 +1,7 @@
+com\aconex\tech\Tally.class
+com\aconex\tech\Vote.class
+com\aconex\tech\exceptions\MissingResourceException.class
+com\aconex\tech\ArgumentValidator.class
+com\aconex\tech\exceptions\UnAuthorizedException.class
+com\aconex\tech\Candidate.class
+com\aconex\tech\MainProgram.class

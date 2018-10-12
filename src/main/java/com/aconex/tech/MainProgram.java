@@ -9,8 +9,11 @@ public class MainProgram {
      */
     public static void main(String[] args) {
         //Take input list of candidates
-        //String fileLocation=args[0];
-        String fileLocation="C:\\Users\\hjawadwa.ORADEV\\Desktop\\aconex-tech-challenge\\CandidatesList.txt";
+        if(args.length == 0){
+            System.out.println ("Please pass location of the candidates list" );
+        }
+        String fileLocation=args[0];
+        //String fileLocation="C:\\Users\\hjawadwa.ORADEV\\Desktop\\aconex-tech-challenge\\CandidatesList.txt";
         ArgumentValidator.checkArgumentNullOrEmpty (fileLocation);
         String vote;
         ArrayList<Vote> listofVotes = new ArrayList<Vote> ();
